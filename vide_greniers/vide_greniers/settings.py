@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'manage_users',  # Custom app for user management
+    'rest_framework',  # Django REST Framework for API support
+    'corsheaders',  # For handling CORS
+    'django_filters',  # For filtering support in DRF
+    'drf_yasg',  # For API documentation
+    'rest_framework_simplejwt',  # For JWT authentication
+    
 ]
 
 MIDDLEWARE = [
